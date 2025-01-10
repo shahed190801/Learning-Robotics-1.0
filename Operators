@@ -1,0 +1,13 @@
+//Operators: Arithmatic, Comparison, Boolean
+//Arithmatic: +, -, *, /
+//Comparison: <, >, <=, >=, ==, !=
+//Boolean: && (And), || (Or)
+
+void setup()
+{
+
+}
+void loop()
+{
+
+}
