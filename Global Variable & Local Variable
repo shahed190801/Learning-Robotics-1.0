@@ -4,7 +4,7 @@ int run;
 
 void setup()
 {
-  serial.begin(9600);
+  Serial.begin(9600);
     int go;
 // we can use "run" here but we can use "go" only in here not in the loop fuction as it is local.
 }
