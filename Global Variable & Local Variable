@@ -1,0 +1,15 @@
+//use a variable universally
+//we can easily use a global variable across the functions in a program, not the local variable
+int run;
+
+void setup()
+{
+  serial.begin(9600);
+    int go;
+// we can use "run" here but we can use "go" only in here not in the loop fuction as it is local.
+}
+
+void loop()
+{
+  // we can use "run" here also
+}
