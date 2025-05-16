@@ -9,6 +9,6 @@ void setup()
 void loop()
 {
  char a=Serial.read();
-  //for using string:just swap char by it > Serial.readString()
+  //for using string:just swap char by it > String a=Serial.readString();
  Serial.println(a);
 }
