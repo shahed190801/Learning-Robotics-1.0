@@ -1,0 +1,14 @@
+// Taking Input
+
+void setup()
+{
+ Serial.begin(9600);
+
+}
+
+void loop()
+{
+ char a=Serial.read();
+  //for using string:just swap char by it > Serial.readString()
+ Serial.println(a);
+}
