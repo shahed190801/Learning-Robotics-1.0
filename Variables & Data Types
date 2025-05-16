@@ -1,0 +1,22 @@
+//variables types:
+//1. integers 1, 2, 764353
+//2. float 2.3, 3.14,9.8
+//3. char 'a','b'
+//4. string "Hello Robo!"
+
+void setup()
+{
+  serial.begin(9600);
+  //Declarartion of the variables: data_type variables_name;
+  int class;
+  float cake;
+  char alphabet;
+  string name;
+
+    serial.println(class);
+}
+
+void loop()
+{
+  
+}
