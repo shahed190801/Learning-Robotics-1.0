@@ -1,10 +1,10 @@
 //Basic Structure of the arduino programme
 void setup()
 {
-   serial.begin(9600);
+   Serial.begin(9600);
 }
 
 void loop();
 {
-   serial.print("Hello, Robo!")
+   Serial.print("Hello, Robo!")
 }
